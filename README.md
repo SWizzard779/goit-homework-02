@@ -1,2 +1,2 @@
-# goit-homework-01
-html code 
+# goit-homework-02
+html + css
