@@ -9,10 +9,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.wrapper {
-    width: 1440px;
-}
-
 a {
     text-decoration: none;
 }
@@ -39,7 +35,11 @@ header {
     margin-right: 76px;
 }
 
-.logo-header .logo {
+.logo-header:hover, .logo:hover, .logo-header:focus, .logo:focus {
+    color: #404bbf;
+}
+
+.logo {
     color: #2E2F42;
 }
 
@@ -48,7 +48,7 @@ header {
     font-weight: 500;
 }
 
-.nav-list li:hover, .nav-list li:focus {
+.nav-list:hover, .nav-list:focus {
     color: #404bbf; 
 }
 
@@ -82,8 +82,8 @@ header {
 .button {
     background: #4D5AE5;
     color: #FFF;
-    font-size: 16px;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.04em;
     font: inherit;
@@ -164,6 +164,10 @@ header {
 /*Footer*/
 .footer {
     background:#2E2F42;
+}
+
+.footer .paragraph {
+    color: #F4F4FD;
 }
 
 .logo-footer {
