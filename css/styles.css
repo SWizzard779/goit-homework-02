@@ -20,7 +20,6 @@ ul {
 /*header*/
 
 header {
-    border-bottom: 1px solid #E7E9FC;
     background:#FFF;
 }
 
@@ -32,23 +31,29 @@ header {
     font-weight: 700;
     line-height: 1.17; 
     letter-spacing: 0.54px;
-    margin-right: 76px;
+    letter-spacing: 0.03em;
 }
 
-.logo-header:hover, .logo:hover, .logo-header:focus, .logo:focus {
+.logo-header:hover, 
+.logo:hover, 
+.logo-header:focus, 
+.logo:focus {
     color: #404bbf;
 }
 
-.logo {
+.logo-header .logo {
     color: #2E2F42;
 }
 
-.nav-list li {
+.list-items {
     color: #2E2F42;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.nav-list:hover, .nav-list:focus {
+.list-items:hover, .list-items:focus {
     color: #404bbf; 
 }
 
@@ -96,10 +101,6 @@ header {
 
 /*Second Section*/
 
-.hidden {
-    display: none;
-}
-
 #features {
     background:#FFF;
 }
@@ -141,7 +142,6 @@ header {
 /*Forths section*/
 
 .portfolio {
-    height: 1240px;
     background:#FFF;;
 }
 
